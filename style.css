@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.line{
+    display : flex;
+}
+
+.black{
+    background-color : black;
+}
+
+.newGridButton{
+    width : 300px;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
