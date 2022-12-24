@@ -5,10 +5,7 @@ body{
 
 .line{
     display : flex;
-}
-
-.black{
-    background-color : black;
+    background-color: rgb(114, 35, 35);
 }
 
 .newGridButton{

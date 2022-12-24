@@ -14,7 +14,8 @@ newGridButton.addEventListener("click", function(e){
     createGrid(newGridSize);
     squares = Array.from(document.getElementsByClassName("square"))
     squares.forEach(square => square.addEventListener("mouseover", function(e){
-        square.style = "height : " + gridSize /newGridSize + "px ; width : " + gridSize / newGridSize + "px; background-color : black";
+        
+        square.style = "height : " + gridSize /newGridSize + "px ; width : " + gridSize / newGridSize + "px; background-color : " + "rgb(" + Math.floor(Math.random()*255) + ", " + Math.floor(Math.random()*255) + ", " + Math.floor(Math.random()*255) + ")";
 }))
 
 
